@@ -707,6 +707,7 @@ color: #e95d32;
 }
 .wrapper-footer-bootom{
   padding-left: 15px;
+  margin: 0 1rem;
   max-width: 500px;
   display: flex;
   justify-content: space-between;
