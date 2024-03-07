@@ -363,6 +363,7 @@ header {
   display: grid;
   gap: 2rem;
   padding: 1rem;
+  margin: auto;
 }
 .section-3 .card {
   display: flex;
@@ -429,10 +430,16 @@ header {
 @media screen and (min-width: 900px) {
   .wraper-section-3,
   .section-4-wrapper {
-    max-width: 900px;
+    min-width: 900px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    overflow-x: scroll;
   }
 }
+.section-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 @media screen and (min-width: 1200px) {
   .wraper-section-3,
   .section-4-wrapper {
