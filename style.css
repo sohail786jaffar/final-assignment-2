@@ -550,7 +550,7 @@ color: #e95d32;
 }
 @media screen and (min-width: 770px) {
   .section-5-wrapper {
-    max-width: 770x;
+    max-width: 770px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -721,15 +721,15 @@ color: #e95d32;
   padding-left: 15px;
 }
 .wrapper-footer-bootom{
-  padding-left: 15px;
-  margin: 0 1rem;
+  padding: 0 15px;
+  margin: 1rem;
   max-width: 500px;
   display: flex;
   justify-content: space-between;
   margin: auto;
   padding-top: 1rem;
   border-top:2px solid gray;
-  margin-bottom: -4rem;
+  margin-bottom: -3.5rem;
   margin-top: 2rem;
 }
 @media screen and (min-width:770px) {
